@@ -1,0 +1,56 @@
+.IntroDesign{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 40em;
+}
+
+#listenerImg{
+    height: 30em;
+    width:30em;
+}
+#IntroDesc{
+    width: 15em;
+    font-weight: 100px;
+    color: rgb(228, 150, 54);
+    font-size: 2.5em;
+    padding: 1em;
+}
+
+@media only screen and (max-width:  961px) {
+  .IntroDesign{
+    height: 30em;
+    margin:auto;
+    margin-top: 20em;
+    flex-direction: row;
+
+  }
+    #listenerImg{
+        height: 15em;
+        width:15em;
+        margin: auto;
+    }
+    #IntroDesc{
+        width: 8em;
+    font-size: 1.5em;
+    padding: 0.4em;
+    }
+    }
+
+    @media only screen and (max-width:  573px) {
+         .IntroDesign{ 
+          height: 10em;
+          margin-left:40px;
+          margin-top: 10em;
+     } 
+          #listenerImg{
+              height: 10em;
+              width:10em;
+              margin: auto;
+          }
+          }
+
+
+   
+  
+

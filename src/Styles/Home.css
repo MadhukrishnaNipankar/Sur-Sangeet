@@ -1,0 +1,40 @@
+#Home {
+    margin: auto;
+    width: 95%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  @media only screen and (max-width: 1369px) {
+   #Home{ 
+    width: 80%;
+  } 
+  }
+  
+  @media only screen and (max-width: 1257px) {
+    #Home{
+      width: 70%;
+    }
+    }
+  
+    @media only screen and (max-width:  1041px) {
+      #Home{
+        width: 60%;
+      }
+      }
+      @media only screen and (max-width:  961px) {
+        #Home{
+          width: 100vw;
+          height: 103vh;
+          flex-direction: column;
+        }
+      }
+  
+    
+   
+  html{
+    scroll-behavior: smooth;
+  }

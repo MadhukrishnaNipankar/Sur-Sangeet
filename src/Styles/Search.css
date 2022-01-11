@@ -1,0 +1,80 @@
+.searchSection {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8em;
+    margin-top: 15em;
+  }
+  
+  #searchBox {
+    padding: 1em;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  #searchQuery {
+    height: 2em;
+    width: 25vw;
+    font-weight: bold;
+    border: none;
+  }
+  
+  #SearchIcon {
+    width: 2.4em;
+    cursor: pointer;
+    filter: invert(1);
+  }
+  #searchButton {
+    background-color: #fff;
+    border: none;
+  }
+  
+  #searchButton:hover {
+    border: 0.5px solid rgb(216, 215, 215);
+    background-color: rgb(235, 228, 228);
+  }
+  a#logo-Name {
+    font-weight: 10;
+  }
+  
+  #exploreBtn {
+    margin: 2em 4em;
+    padding: 0.1em 0.4em;
+    border: 1px solid rgb(102, 46, 192);
+    font-weight: bolder;
+    color: #fff;
+    /* background-color: rgb(251, 251, 251); */
+    background: none;
+    border-radius: 4px;
+    font-size: 2.1em;
+  }
+  
+  #exploreBtn:hover {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: rgb(102, 46, 192);
+  }
+  
+  @media only screen and (max-width:  961px) {
+    .searchSection {
+      padding: 1em;
+      align-items: center;
+      margin: 4em;
+    }
+  #searchBox {
+    padding: 5px;
+  }
+    #searchQuery {
+      width: 68vw;
+    }
+    
+    #exploreBtn {
+      margin: 1em 2em;
+      padding: 0.1em 0.2em;
+      color: #fff;
+      font-size: 1.5em;
+    }
+      }
