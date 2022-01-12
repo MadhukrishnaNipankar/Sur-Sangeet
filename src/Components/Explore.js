@@ -3,7 +3,7 @@ import React from 'react'
 export default function Explore() {
     return (
         <div>
-            Explore Component
+           This will be updated later :)
         </div>
     )
 }

@@ -16,6 +16,7 @@ import SearchState from './Context/Search/SearchState';
 function App() {
   return (
     <div className="App bgcolor" style={{ height: "fit-content", width: "100vw" }}>
+
       <SearchState>
         <Router>
           <Navbar />

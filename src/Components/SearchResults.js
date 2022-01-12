@@ -11,7 +11,7 @@ import '../Styles/SongResultBar.css';
 
 export default function SearchResults() {
     let results = [];
-    const [data, setData] = useState({ resultList: results, loading: false });
+    const [data, setData] = useState({ resultList: results });
     const searchData = useContext(searchContext);
 
     const handleSearchedInput = () => {
@@ -19,15 +19,15 @@ export default function SearchResults() {
     }
 
 
-
     useEffect(async () => {
-        let url = `https://jiosaavn-api-v3.vercel.app/search?query=${searchData.searchQuery}`;
-        let data = await fetch(url);
-        let parsedData = await data.json();
+        let url1 = `https://jiosaavn-api-v3.vercel.app/search?query=${searchData.searchQuery}`;
 
+
+        let data1 = await fetch(url1);
+        let parsedData1 = await data1.json();
         let tempDataArray = [];
-        for (let i = 0; i < parsedData.results.length; i++) {
-            let url2 = parsedData.results[i].api_url.song;
+        for (let i = 0; i < parsedData1.results.length; i++) {
+            let url2 = parsedData1.results[i].api_url.song;
             let data2 = await fetch(url2);
             let parsedData2 = await data2.json();
             tempDataArray.push(parsedData2);

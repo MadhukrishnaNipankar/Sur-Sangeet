@@ -1,0 +1,222 @@
+{
+  "albums": {
+    "data": [
+      {
+        "id": "2370222",
+        "title": "Dillagi",
+        "image": "https://c.saavncdn.com/771/Dillagi-Hindi-2016-50x50.jpg",
+        "music": "Nusrat Fateh Ali Khan, Salim-Sulaiman",
+        "url": "https://www.jiosaavn.com/album/dillagi/w8L62fAM5FA_",
+        "type": "album",
+        "description": "2016 \u00b7 Hindi Album \u00b7 Nusrat Fateh Ali Khan, Salim-Sulaiman",
+        "ctr": 39,
+        "position": 1,
+        "more_info": {
+          "year": "2016",
+          "is_movie": "",
+          "language": "hindi",
+          "song_pids": "wzEGe6Vn"
+        }
+      },
+      {
+        "id": "14518052",
+        "title": "DilLagi",
+        "image": "https://c.saavncdn.com/790/DilLagi-Urdu-2018-20181201044102-50x50.jpg",
+        "music": "Nusrat Fateh Ali Khan",
+        "url": "https://www.jiosaavn.com/album/dillagi/D8dDN9ToJs4_",
+        "type": "album",
+        "description": "2018 \u00b7 Urdu Album \u00b7 Nusrat Fateh Ali Khan",
+        "ctr": 112,
+        "position": 2,
+        "more_info": {
+          "year": "2018",
+          "is_movie": "",
+          "language": "urdu",
+          "song_pids": "9AlucHNp, 8GZg75_z, 3WRu5hq2, qqTfIvZp"
+        }
+      },
+      {
+        "id": "1025737",
+        "title": "Dillagi",
+        "image": "https://c.saavncdn.com/585/Dillagi-Hindi-1999-20210421170202-50x50.jpg",
+        "music": "Jatin-Lalit",
+        "url": "https://www.jiosaavn.com/album/dillagi/KVo4VgHV8Kw_",
+        "type": "album",
+        "description": "1999 \u00b7 Hindi Film \u00b7 Jatin-Lalit",
+        "ctr": 174,
+        "position": 3,
+        "more_info": {
+          "year": "1999",
+          "is_movie": "1",
+          "language": "hindi",
+          "song_pids": "gElrTAVk, PfZMpw62, SNUBvtVe, Tk-X8EgJ, wLyWwTgE, yn6pD6NL, 1ySfqsnk, AYlzjK6Q, dyZSr-h5, E9_OhHWH"
+        }
+      }
+    ],
+    "position": 1
+  },
+  "songs": {
+    "data": [
+      {
+        "id": "wzEGe6Vn",
+        "title": "Dillagi",
+        "image": "https://c.saavncdn.com/771/Dillagi-Hindi-2016-50x50.jpg",
+        "album": "Dillagi",
+        "url": "https://www.jiosaavn.com/song/dillagi/BxIudhEGYV0",
+        "type": "song",
+        "description": "Dillagi \u00b7 Rahat Fateh Ali Khan",
+        "ctr": 726,
+        "position": 1,
+        "more_info": {
+          "primary_artists": "Rahat Fateh Ali Khan",
+          "singers": "Rahat Fateh Ali Khan",
+          "video_available": null,
+          "triller_available": false,
+          "language": "hindi"
+        }
+      },
+      {
+        "id": "Ai3cIqqB",
+        "title": "Dillagi",
+        "image": "https://c.saavncdn.com/999/Khido-Khundi-Punjabi-2018-20180507121600-50x50.jpg",
+        "album": "Khido Khundi",
+        "url": "https://www.jiosaavn.com/song/dillagi/MQFYUj1BRnE",
+        "type": "song",
+        "description": "Khido Khundi \u00b7 Ranjit Bawa",
+        "ctr": 0,
+        "position": 2,
+        "more_info": {
+          "vcode": "010910390787974",
+          "vlink": "https://jiotunepreview.jio.com/content/Converted/010910390744396.mp3",
+          "primary_artists": "Ranjit Bawa",
+          "singers": "Ranjit Bawa",
+          "video_available": null,
+          "triller_available": false,
+          "language": "punjabi"
+        }
+      },
+      {
+        "id": "rBGWhQ-s",
+        "title": "Dillagi Ne Di Hawa (From Dostana)",
+        "image": "https://c.saavncdn.com/content/5/album/Z/ZjM0YzViOWVhMmIwNmEyNGE4ZjZkODIyYTRkYzE5OTY_-thumb.jpg",
+        "album": "Dostana",
+        "url": "https://www.jiosaavn.com/song/dillagi-ne-di-hawa-from-dostana/AiosZhxhGkA",
+        "type": "song",
+        "description": "Dostana \u00b7 Laxmikant - Pyarelal, Kishore Kumar, Asha Bhosle",
+        "ctr": 271,
+        "position": 3,
+        "more_info": {
+          "vcode": "010912291146000",
+          "vlink": "https://jiotunepreview.jio.com/content/Converted/010912291102426.mp3",
+          "primary_artists": "Laxmikant - Pyarelal, Kishore Kumar, Asha Bhosle",
+          "singers": "Kishore Kumar, Asha Bhosle",
+          "video_available": null,
+          "triller_available": false,
+          "language": "hindi"
+        }
+      }
+    ],
+    "position": 2
+  },
+  "playlists": { "data": [], "position": 3 },
+  "artists": {
+    "data": [
+      {
+        "id": "2440988",
+        "title": "From the movie : Dillagie",
+        "image": "https://www.jiosaavn.com/_i/3.0/artist-default-music.png",
+        "extra": "singer",
+        "url": "https://www.jiosaavn.com/artist/from-the-movie-:-dillagie-songs/mmZ-QieF69s_",
+        "type": "artist",
+        "description": "Singer",
+        "ctr": 0,
+        "entity": 0,
+        "position": 1
+      },
+      {
+        "id": "9786039",
+        "title": "Dinesh Dillagi",
+        "image": "https://www.jiosaavn.com/_i/3.0/artist-default-music.png",
+        "extra": "lyricist",
+        "url": "https://www.jiosaavn.com/artist/dinesh-dillagi-songs/Hp2fenmTWbM_",
+        "type": "artist",
+        "description": "Lyricist",
+        "ctr": 0,
+        "entity": 0,
+        "position": 2
+      },
+      {
+        "id": "11446617",
+        "title": "Sakeel Bawali ki Dillagi",
+        "image": "https://www.jiosaavn.com/_i/3.0/artist-default-film.png",
+        "extra": "primary",
+        "url": "https://www.jiosaavn.com/artist/sakeel-bawali-ki-dillagi-songs/cstAP2XJlEI_",
+        "type": "artist",
+        "description": "Primary",
+        "ctr": 0,
+        "entity": 0,
+        "position": 3
+      }
+    ],
+    "position": 4
+  },
+  "topquery": {
+    "data": [
+      {
+        "id": "wzEGe6Vn",
+        "title": "Dillagi",
+        "image": "https://c.saavncdn.com/771/Dillagi-Hindi-2016-50x50.jpg",
+        "album": "Dillagi",
+        "url": "https://www.jiosaavn.com/song/dillagi/BxIudhEGYV0",
+        "type": "song",
+        "description": "Song by Rahat Fateh Ali Khan",
+        "ctr": 726,
+        "position": 1,
+        "more_info": {
+          "primary_artists": "Rahat Fateh Ali Khan",
+          "singers": "Rahat Fateh Ali Khan",
+          "video_available": null,
+          "triller_available": false,
+          "language": "hindi"
+        }
+      }
+    ],
+    "position": 0
+  },
+  "shows": {
+    "data": [
+      {
+        "id": "23485",
+        "title": "Teologia Com Caf\u00e9",
+        "image": "https://c.sop.saavncdn.com/Teologia-Com-Caf-20200625230220-500x500.jpg",
+        "type": "show",
+        "season_number": 1,
+        "description": "Season 1",
+        "url": "https://www.jiosaavn.com/shows/teologia-com-cafe/1/VLPwETE9gXs_",
+        "position": 1
+      },
+      {
+        "id": "42423",
+        "title": "SEMILLAS DE TEOLOG\u00cdA",
+        "image": "https://c.sop.saavncdn.com/SEMILLAS-DE-TEOLOG-A-20201015060407-500x500.jpg",
+        "type": "show",
+        "season_number": 1,
+        "description": "Season 1",
+        "url": "https://www.jiosaavn.com/shows/semillas-de-teologIa/1/qLRcd5Q3iTY_",
+        "position": 2
+      },
+      {
+        "id": "155100",
+        "title": "Teolog\u00eda Pr\u00e1ctica",
+        "image": "https://c.sop.saavncdn.com/Teolog-a-Pr-ctica-20211019101422-500x500.jpg",
+        "type": "show",
+        "season_number": 1,
+        "description": "Season 1",
+        "url": "https://www.jiosaavn.com/shows/teologia-practica/1/AQkOmF5ZVak_",
+        "position": 3
+      }
+    ],
+    "position": 5
+  },
+  "episodes": { "data": [], "position": 6 }
+}

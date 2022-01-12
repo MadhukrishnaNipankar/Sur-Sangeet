@@ -8,7 +8,12 @@ export default function Search() {
     const searchData = useContext(searchContext);
 
     const handleSearchedInput = () => {
-        searchData.setsearchQuery(document.getElementById("searchQuery").value);
+        if(document.getElementById("searchQuery").value!=""){
+            searchData.setsearchQuery(document.getElementById("searchQuery").value);
+        }
+        else{
+            document.getElementById("logo-Name").click();
+        }
     }
     return (
         <>
