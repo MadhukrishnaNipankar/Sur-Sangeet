@@ -18,11 +18,8 @@ export default function SearchResults() {
         searchData.setsearchQuery(document.getElementById("searchQuery").value);
     }
 
-
-    useEffect(async () => {
+        async function fetchData() {
         let url1 = `https://jiosaavn-api-v3.vercel.app/search?query=${searchData.searchQuery}`;
-
-
         let data1 = await fetch(url1);
         let parsedData1 = await data1.json();
         let tempDataArray = [];
@@ -35,7 +32,11 @@ export default function SearchResults() {
 
         setData({ resultList: tempDataArray })
         //parsedData.results is an array 
-        //parsedData.results[i].api_url.song  is an url for level2 data
+        //parsedData.results[i].api_url.song  is an url for level2 data 
+        }
+
+    useEffect(() => {
+         fetchData();
     }, [handleSearchedInput])
 
 
