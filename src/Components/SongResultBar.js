@@ -4,7 +4,7 @@ import '../Styles/SongResultBar.css';
 export default function SongResultBar(props) {
     return (
         <>
-            <a href={props.audio} target="_blank">
+            <a href={props.audio} target="_blank" rel="noreferrer">
                 <div className='container SongResultBar'>
                     <div className="songImage"><img src={props.songImgSrc} alt="" /></div>
                     <div className="songInfo">
