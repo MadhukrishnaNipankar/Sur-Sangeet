@@ -14,11 +14,6 @@ export default function SearchResults() {
     const [data, setData] = useState({ resultList: results });
     const searchData = useContext(searchContext);
 
-    const handleSearchedInput = () => {
-        searchData.setsearchQuery(document.getElementById("searchQuery").value);
-    }
-
-       
 
     useEffect(() => {
          async function fetchData() {
@@ -37,6 +32,10 @@ export default function SearchResults() {
         //parsedData.results is an array 
         //parsedData.results[i].api_url.song  is an url for level2 data 
         }
+        
+         const handleSearchedInput = () => {
+        searchData.setsearchQuery(document.getElementById("searchQuery").value);
+    }
          fetchData();
     }, [handleSearchedInput])
 
