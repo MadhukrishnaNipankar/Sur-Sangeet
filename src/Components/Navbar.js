@@ -1,6 +1,8 @@
 import React from 'react'
 import "../Styles/Navbar.css"
 import { Link } from 'react-router-dom'
+import "../Styles/Search.css";
+
 
 export default function Navbar() {
 
@@ -22,13 +24,11 @@ export default function Navbar() {
                     display: "flex"
                 }}>
                     <Link id="logo-Name" className="navbar-brand" to="/">
-                    <img src="Logo/sangeet Logo.png" alt="music" height="40px"/> SANGEET
+                        <img src="Logo/sangeet Logo.png" alt="music" height="40px" /> SANGEET
                     </Link>
 
-                     <div className="gif"><img height="60em"src="Images/anime.gif" alt="" /></div>
+                    <div className="gif"><img height="60em" src="Images/anime.gif" alt="" /></div>
                 </div>
-
-               
             </nav>
         </>
 

@@ -7,8 +7,8 @@ export default function Home() {
 
     return (
         <div id="Home" >
-            <IntroDesign/>
-             <Search /> 
+            <IntroDesign />
+            <Search />
         </div>
     )
 }

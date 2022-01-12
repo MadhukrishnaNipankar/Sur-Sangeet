@@ -1,0 +1,28 @@
+.SongResultBar{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.SongResultBar:hover{
+cursor: pointer;
+background-color: rgb(24, 24, 24);
+}
+.songInfo{
+    /* border: 2px solid red; */
+    padding: 2px;
+    margin:0px 10px ;
+}
+
+.songTitle{
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+    color: rgb(230, 228, 228);
+}

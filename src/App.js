@@ -8,33 +8,34 @@ import Explore from './Components/Explore';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
-import Footer from './Components/Footer';
+import SearchState from './Context/Search/SearchState';
 
 
 function App() {
   return (
     <div className="App bgcolor" style={{ height: "fit-content", width: "100vw" }}>
-      <Router>
-      <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
+      <SearchState>
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
 
-          <Route exact path="/SearchResults">
-            <SearchResults />
-          </Route>
+            <Route exact path="/SearchResults">
+              <SearchResults />
+            </Route>
 
-          <Route exact path="/Explore">
-            <Explore/>
-          </Route>
+            <Route exact path="/Explore">
+              <Explore />
+            </Route>
 
-        </Switch>
-        {/* <Footer/> */}
-      </Router>
+          </Switch>
+        </Router>
+      </SearchState>
+
     </div>
   );
 }

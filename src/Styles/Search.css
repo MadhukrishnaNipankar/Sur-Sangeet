@@ -27,15 +27,8 @@
     cursor: pointer;
     filter: invert(1);
   }
-  #searchButton {
-    background-color: #fff;
-    border: none;
-  }
-  
-  #searchButton:hover {
-    border: 0.5px solid rgb(216, 215, 215);
-    background-color: rgb(235, 228, 228);
-  }
+
+ 
   a#logo-Name {
     font-weight: 10;
   }
