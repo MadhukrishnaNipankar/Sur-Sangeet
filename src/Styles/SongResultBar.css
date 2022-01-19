@@ -26,3 +26,11 @@ a{
 a:hover{
     color: rgb(230, 228, 228);
 }
+
+.favourite{
+    margin: 2em 0em;
+}
+
+.addToFav{
+    justify-content: stretch; 
+}

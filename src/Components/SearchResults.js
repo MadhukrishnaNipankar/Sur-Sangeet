@@ -16,7 +16,7 @@ export default function SearchResults() {
     const searchData = useContext(searchContext);
 
     function handleSearchedInput() {
-        setData({loading:true});
+        setData({ loading: true });
         searchData.setsearchQuery(document.getElementById("searchQuery").value);
         fetchData();
     }
@@ -32,7 +32,7 @@ export default function SearchResults() {
             let parsedData2 = await data2.json();
             tempDataArray.push(parsedData2);
         }
-        setData({ resultList: tempDataArray,loading:false})
+        setData({ resultList: tempDataArray, loading: false })
         //parsedData.results is an array 
         //parsedData.results[i].api_url.song  is an url for level2 data 
     }
@@ -59,12 +59,12 @@ export default function SearchResults() {
                         <div className="container">    Results for <i>"{searchData.searchQuery}"</i></div>
 
                         {data.resultList.map((element) => {
-                            return <SongResultBar key={element.id} songImgSrc={element.images['50x50']} songTitle={element.song} singers={element.singers} audio={element.media_url} duration={element.duration} />
+                            return <SongResultBar id={element.id} key={element.id} songImgSrc={element.images['50x50']} songTitle={element.song} singers={element.singers} audio={element.media_url} duration={element.duration} />
                         })}
 
                     </div>
                 </div>
-            } 
+            }
         </>
 
     )
