@@ -9,7 +9,7 @@ export default function SongResultBar(props) {
         if (localStorage.getItem(props.id) !== null) {
             setFavourite({ favouriteState: true, favLogo: "Icons/filled-star.svg" });
         }
-    })
+    },[props.id])
 
     
     const HandleAddToFavourite = () => {
