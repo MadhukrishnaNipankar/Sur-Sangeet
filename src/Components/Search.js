@@ -25,8 +25,6 @@ export default function Search() {
                         <span onClick={handleSearchedInput}> <Link to="/SearchResults" ><img height="30px" src="https://img.icons8.com/ios-filled/90/000000/arrow.png" alt='' /></Link></span>
                     </div>
                 </div>
-
-                <Link to="/Explore"> <button id="exploreBtn">Explore</button></Link>
             </div>
         </>
     )
